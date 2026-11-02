@@ -1,0 +1,17 @@
+rank,accession,protein,organism,pct_identity,query_cover_pct,evalue,bit_score,interpretation
+1,P69905.2,Hemoglobin subunit alpha,Homo sapiens,100.00,100,2e-100,286,"Query itself (HBA1/HBA2 protein). 142/142 identical, no gaps. Expected self-hit, confirms the search worked."
+1 (tie),P69906.2,Hemoglobin subunit alpha,Pan paniscus,100.00,100,2e-100,286,Bonobo alpha chain. Identical to human over 142 aa. Listed with the human hit in the alignment file.
+1 (tie),P69907.2,Hemoglobin subunit alpha,Pan troglodytes,100.00,100,2e-100,286,Chimpanzee alpha chain. Identical to human over 142 aa. Listed with the human hit in the alignment file.
+2,P01923.1,Hemoglobin subunit alpha,Gorilla gorilla gorilla,99.29,99,1e-98,282,Gorilla ortholog. 1 substitution in 141 aligned residues; 99% cover only because the gorilla sequence is 1 aa shorter (0 gaps).
+3,Q9TS35.2,Hemoglobin subunit alpha-1,Hylobates lar,98.59,100,2e-98,281,Gibbon alpha-1 ortholog. 140/142 identical; very recent divergence from human.
+4,P06635.2,Hemoglobin subunit alpha,Pongo pygmaeus,97.89,100,4e-98,281,Orangutan ortholog. 139/142 identical.
+5,P01924.1,Hemoglobin subunit alpha,Semnopithecus entellus,97.87,99,3e-97,278,Langur (Old World monkey) ortholog. 138/141 identical.
+6,P63107.2,Hemoglobin subunit alpha,Macaca fuscata fuscata,97.18,100,3e-97,278,Japanese macaque ortholog. 138/142 identical.
+7,P67817.2,Hemoglobin subunit alpha,Ateles geoffroyi,96.48,100,1e-96,277,Spider monkey (New World monkey) ortholog. Identity drops to ~96% as divergence time increases.
+8,Q9TS34.2,Hemoglobin subunit alpha-2,Hylobates lar,96.48,100,1e-96,277,Gibbon alpha-2 ortholog (second alpha gene copy in gibbon). Slightly lower identity than alpha-1.
+9,P18972.1,Hemoglobin subunit alpha,Mico argentatus,97.16,99,1e-96,276,Silvery marmoset ortholog. 137/141 identical.
+10,P01926.2,Hemoglobin subunit alpha,Chlorocebus aethiops,96.48,100,4e-96,276,Grivet monkey ortholog. 137/142 identical.
+24,P01935.1,Hemoglobin subunit alpha-3,Pan troglodytes,88.65,99,4e-92,266,"Chimp alpha-3. Only ~89% identical although the chimp main alpha chain is 100% identical to human (see P69907). Lower identity suggests a diverged duplicate (paralog), not the true ortholog. Inference from identity pattern."
+56,P01942.2,Hemoglobin subunit alpha,Mus musculus,85.92,100,5e-87,253,Mouse ortholog. ~86% identical across the full length; typical human-rodent conservation for a core protein.
+59,P01966.2,Hemoglobin subunit alpha,Bos taurus,88.03,100,9e-87,252,Cow ortholog. 88% identical; shows conservation across mammalian orders.
+83,P01948.2,Hemoglobin subunit alpha-1/2,Oryctolagus cuniculus,82.39,100,2e-85,249,"Rabbit ortholog. Lowest identity in the 100-hit list (82%), still E-value ~1e-85, so clearly homologous."
